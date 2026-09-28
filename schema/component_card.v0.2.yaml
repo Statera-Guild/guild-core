@@ -1,0 +1,92 @@
+# Component Card Schema v0.2
+
+card_id: CMP-EAM-XXXX
+# Placeholder only.
+# Example format: CMP-EAM-0001
+# Immutable after issuance.
+
+guild: compute
+
+component_class: edge_ai_module
+# MUST match the taxonomy folder value.
+
+supplier_id: SUP-XXXX
+# Placeholder only.
+# Example format: SUP-0001
+# Immutable after issuance.
+
+product_name:
+model_no:
+manufacturer_product_url:
+
+origin:
+
+key_specs: {}
+
+interfaces: []
+
+env_rating:
+
+pasg:
+  eal: []
+  opl: []
+  platform: []
+
+risk:
+
+second_source: []
+
+sources:
+  - url:
+    source_type: datasheet
+    # official_product_page | datasheet | manual | certification | other
+    accessed:
+
+engineering_resources:
+
+  datasheet:
+    availability: unknown
+    url:
+    redistribution: unknown
+
+  manual:
+    availability: unknown
+    url:
+    redistribution: unknown
+
+  mechanical_drawing:
+    availability: unknown
+    format:
+    url:
+    redistribution: unknown
+
+  cad_3d:
+    availability: unknown
+    format:
+    url:
+    redistribution: unknown
+
+  sdk:
+    availability: unknown
+    url:
+
+  ros:
+    availability: unknown
+    version:
+    url:
+
+media:
+
+  hero_image:
+    url:
+    source: official
+    redistribution: unknown
+
+  gallery: []
+
+status: listed
+# listed | documented
+
+related: []
+
+updated:

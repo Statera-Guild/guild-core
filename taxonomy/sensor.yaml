@@ -1,0 +1,47 @@
+version: 0.1
+guild: sensor
+guild_code: SEN
+frozen: true
+classes:
+  - name: "2D LiDAR"
+    code: L2D
+    folder: lidar_2d
+  - name: "3D LiDAR"
+    code: L3D
+    folder: lidar_3d
+  - name: "Safety Laser Scanner"
+    code: SLS
+    folder: safety_laser_scanner
+  - name: "RGB Camera"
+    code: RGB
+    folder: rgb_camera
+  - name: "Depth Camera"
+    code: DEP
+    folder: depth_camera
+  - name: "Thermal Camera"
+    code: THM
+    folder: thermal_camera
+  - name: "Event Camera"
+    code: EVT
+    folder: event_camera
+  - name: "Radar"
+    code: RDR
+    folder: radar
+  - name: "Ultrasonic"
+    code: ULS
+    folder: ultrasonic
+  - name: "GNSS/RTK"
+    code: GNS
+    folder: gnss_rtk
+  - name: "IMU"
+    code: IMU
+    folder: imu
+  - name: "Encoder"
+    code: ENC
+    folder: encoder
+  - name: "Force/Torque Sensor"
+    code: FTS
+    folder: force_torque_sensor
+  - name: "Tactile Sensor"
+    code: TAC
+    folder: tactile_sensor

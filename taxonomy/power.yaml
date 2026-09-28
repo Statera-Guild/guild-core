@@ -1,0 +1,32 @@
+version: 0.1
+guild: power
+guild_code: PWR
+frozen: true
+classes:
+  - name: "Battery Pack"
+    code: BAT
+    folder: battery_pack
+  - name: "BMS"
+    code: BMS
+    folder: bms
+  - name: "Charger"
+    code: CHG
+    folder: charger
+  - name: "Charging Dock/Contact"
+    code: DCK
+    folder: charging_dock
+  - name: "DC-DC Converter"
+    code: DCC
+    folder: dc_dc_converter
+  - name: "PDU"
+    code: PDU
+    folder: pdu
+  - name: "Fuse/Relay/Contactor"
+    code: PRT
+    folder: fuse_relay_contactor
+  - name: "Connector"
+    code: CON
+    folder: connector
+  - name: "Wire Harness"
+    code: HAR
+    folder: wire_harness

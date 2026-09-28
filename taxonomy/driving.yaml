@@ -1,0 +1,32 @@
+version: 0.1
+guild: driving
+guild_code: DRV
+frozen: true
+classes:
+  - name: "Drive Module"
+    code: DMD
+    folder: drive_module
+  - name: "Electric Motor"
+    code: MOT
+    folder: electric_motor
+  - name: "Gearbox/Reducer"
+    code: RED
+    folder: gearbox_reducer
+  - name: "Motor Driver"
+    code: MDR
+    folder: motor_driver
+  - name: "Wheel"
+    code: WHL
+    folder: wheel
+  - name: "Caster"
+    code: CST
+    folder: caster
+  - name: "Steering Module"
+    code: STR
+    folder: steering_module
+  - name: "Brake"
+    code: BRK
+    folder: brake
+  - name: "Suspension"
+    code: SUS
+    folder: suspension

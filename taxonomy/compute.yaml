@@ -1,0 +1,26 @@
+version: 0.1
+guild: compute
+guild_code: CMP
+frozen: true
+classes:
+  - name: "Edge AI Module"
+    code: EAM
+    folder: edge_ai_module
+  - name: "Industrial PC"
+    code: IPC
+    folder: industrial_pc
+  - name: "MCU/Controller"
+    code: MCU
+    folder: mcu_controller
+  - name: "Safety Controller/PLC"
+    code: SPL
+    folder: safety_controller
+  - name: "GPU Server"
+    code: GPU
+    folder: gpu_server
+  - name: "Network Equipment"
+    code: NET
+    folder: network_equipment
+  - name: "Wireless Communication"
+    code: WLS
+    folder: wireless_communication

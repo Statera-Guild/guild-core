@@ -1,0 +1,27 @@
+# Supplier Schema v0.1
+
+supplier_id: SUP-XXXX
+# Placeholder only.
+# Example format: SUP-0001
+# Immutable after issuance.
+
+supplier_name:
+
+official_url:
+
+origin:
+# Supplier headquarters country/region.
+# Product origin belongs in the Component Card.
+
+status: listed
+# Supplier registry presence only.
+# Product evaluation/documentation belongs to Component Cards.
+
+sources:
+  - url:
+    source_type: official_product_page
+    accessed:
+
+notes:
+
+updated:

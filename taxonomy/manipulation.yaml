@@ -1,0 +1,23 @@
+version: 0.1
+guild: manipulation
+guild_code: MAN
+frozen: true
+classes:
+  - name: "Robot Arm"
+    code: ARM
+    folder: robot_arm
+  - name: "Joint Actuator Module"
+    code: JAM
+    folder: joint_actuator_module
+  - name: "Gripper"
+    code: GRP
+    folder: gripper
+  - name: "Dexterous Hand"
+    code: HND
+    folder: dexterous_hand
+  - name: "End-Effector Tool"
+    code: EET
+    folder: end_effector_tool
+  - name: "Tool Changer"
+    code: TCH
+    folder: tool_changer
